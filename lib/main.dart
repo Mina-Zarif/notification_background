@@ -13,6 +13,7 @@ void main() async {
     Permission.notification.request();
   });
   await BackgroundService.initializeService();
+
   runApp(const MyApp());
 }
 
